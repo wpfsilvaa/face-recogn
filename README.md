@@ -33,8 +33,9 @@ Clone o repositório:
    ```
    
 2. **Crie um ambiente virtual (recomendado):**
-Bash
- ```python -m venv venv
+
+ ```bash
+python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # ou
 venv\Scripts\activate     # Windows
@@ -42,9 +43,9 @@ venv\Scripts\activate     # Windows
 
 3. **Instale as dependências:**
 
- ```Bash
+ ```bash
 pip install opencv-python deepface customtkinter numpy pillow
- ```
+```
 Nota: Na primeira execução, o DeepFace fará o download automático dos pesos do modelo FaceNet (~90MB).
 
 # 💻 Como Usar
