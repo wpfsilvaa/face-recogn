@@ -1,7 +1,8 @@
-#👤 Sistema de Reconhecimento Facial
+# 👤 Sistema de Reconhecimento Facial
+
 Um sistema completo de biometria facial desenvolvido em Python, focado em facilidade de uso, performance e interface moderna. O projeto permite o cadastro guiado de usuários, reconhecimento em tempo real e gerenciamento de logs de acesso.
 
-##✨ Funcionalidades
+## ✨ Funcionalidades
 * **Cadastro Guiado Multi-Pose:** Captura de fotos em diferentes ângulos (frente, lados, cima, baixo e expressões) para garantir uma base de dados robusta.
 * **Reconhecimento de Alta Performance:** Utiliza o modelo **Facenet** via **DeepFace** com busca vetorizada via **NumPy**, garantindo identificação rápida mesmo com muitos usuários.
 * **Interface Gráfica Moderna:** Desenvolvida com **CustomTkinter**, com suporte a abas e modo escuro.
