@@ -34,29 +34,29 @@ Clone o repositório:
    
 2. **Crie um ambiente virtual (recomendado):**
 
- ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
-venv\Scripts\activate     # Windows
- ```
+    ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   # ou
+   venv\Scripts\activate     # Windows
+    ```
 
 3. **Instale as dependências:**
 
- ```bash
-pip install opencv-python deepface customtkinter numpy pillow
-```
+    ```bash
+   pip install opencv-python deepface customtkinter numpy pillow
+   ```
 Nota: Na primeira execução, o DeepFace fará o download automático dos pesos do modelo FaceNet (~90MB).
 
 # 💻 Como Usar
 
-### **Para iniciar a aplicação principal com interface gráfica:**
+**Para iniciar a aplicação principal com interface gráfica:**
 
-```bash
-python gui.py
-# ou 
-python3.12 gui.py # se tiver multiplas versões
-```
+   ```bash
+   python gui.py
+   # ou 
+   python3.12 gui.py # se tiver multiplas versões
+   ```
 
 ### **Abas da Aplicação:**
 
@@ -67,21 +67,19 @@ python3.12 gui.py # se tiver multiplas versões
 * **Logs:** Visualize o histórico de acessos do dia atual em tempo real.
 
 ### **📂 Estrutura do Projeto**
-* **gui.py**: Ponto de entrada principal com a interface CustomTkinter.
-
-* **enroll.py:** Lógica de captura e processamento de novos usuários.
-
-* **recognize.py:** Funções para comparação de faces e busca no banco de dados.
-
-* **face_embedding.py:** Interface com o modelo DeepFace para gerar vetores numéricos das faces.
-
-* **camera.py:** Configurações de inicialização do hardware de vídeo.
-
-* **database/:** Pasta onde são armazenados os embeddings (.npy) dos usuários.
-
-* **logs/:** Armazenamento dos arquivos de texto com histórico de acessos.
+   * **gui.py**: Ponto de entrada principal com a interface CustomTkinter.
+   
+   * **enroll.py:** Lógica de captura e processamento de novos usuários.
+   
+   * **recognize.py:** Funções para comparação de faces e busca no banco de dados.
+   
+   * **face_embedding.py:** Interface com o modelo DeepFace para gerar vetores numéricos das faces.
+   
+   * **camera.py:** Configurações de inicialização do hardware de vídeo.
+   
+   * **database/:** Pasta onde são armazenados os embeddings (.npy) dos usuários.
+   
+   * **logs/:** Armazenamento dos arquivos de texto com histórico de acessos.
 
 ### **🤝 Contribuições**
-#### Sinta-se à vontade para abrir Issues ou enviar Pull Requests. Toda ajuda para otimizar o tempo de reconhecimento ou adicionar novos backends de detecção é bem-vinda!
-
-#### Dica extra: Se quiser deixar o README ainda mais impressionante, adicione um GIF do sistema funcionando ou um screenshot da aba de reconhecimento!
+ #### Sinta-se à vontade para abrir Issues ou enviar Pull Requests. Toda ajuda para otimizar o tempo de reconhecimento ou adicionar novos backends de detecção é bem-vinda!
