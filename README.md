@@ -7,7 +7,8 @@ Um sistema completo de biometria facial desenvolvido em Python, focado em facili
 * **Reconhecimento de Alta Performance:** Utiliza o modelo **Facenet** via **DeepFace** com busca vetorizada via **NumPy**, garantindo identificação rápida mesmo com muitos usuários.
 * **Interface Gráfica Moderna:** Desenvolvida com **CustomTkinter**, com suporte a abas e modo escuro.
 * **Tela do Cliente (Dual Screen):** Possibilidade de abrir uma janela secundária para exibição em um monitor voltado ao público.
-* **Sistema de Logs Inteligente:** * Registro automático de entradas com data e hora.
+* **Sistema de Logs Inteligente:**
+    * Registro automático de entradas com data e hora.
     * Prevenção de registros duplicados em curto intervalo.
     * Limpeza automática de logs com mais de 180 dias.
 * **Arquitetura Multithread:** Threads separadas para captura de vídeo, reconhecimento e interface, evitando travamentos.
